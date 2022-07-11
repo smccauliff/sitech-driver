@@ -17,5 +17,6 @@ int main(int argc, char** argv) {
   fake_serial_port_config.bit_flip_probability = 0.0;
 
   FakeSerialPort fake_serial_port(io_context, fake_serial_port_config);
+
   return 0;
 }
